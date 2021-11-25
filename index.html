@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet"> 
+    <title>Tienda de ropa Koreana</title>
+  </head>
+  <body>
+    <div style="position: relative;background-color: palevioletred; width: 800px; height: 800px;">
+    <style type="text/css">
+      header{
+        color: black;
+        height: 100vh;
+        background-size:cover;      
+      }
+      header h1{
+        font-family: 'Delius Unicase', cursive;
+        color: aquamarine;
+      }
+      
+      h2{
+        font-family: 'Delius Unicase', cursive;  
+        color: goldenrod;
+      }
+      .precio{
+        color:pink;
+      }
+      .btnRosa{
+        color: #darkgoldenrod;
+        background:#e4ab9a;
+        border:1px solid #e4ab9a;
+      }
+      .btnWhats{
+        right: 20px;
+        bottom: 20px;
+        width: 70px;
+      }
+    </style>
+    <nav class="bg-light sticky-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center text-md-start pt-2">
+             <img src="img/logo.png" class="" alt="Logo Garage-Shop">
+          </div>
+          <div class="col-12 col-md-8 text-center text-md-end d-none d-md-block">
+            <ul class="mb-0">
+              <li class="d-inline-block p-3"><a href="#Inicio" class="lead text-decoration-none text-secondary">Inicio</a></li>
+              <li class="d-inline-block p-3"><a href="#Tienda" class="lead text-decoration-none text-secondary">Tienda</a></li>
+              <li class="d-inline-block p-3"><a href="#Rebajas" class="lead text-decoration-none text-secondary">Rebajas</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Termina Barra de navegación -->
+    <!-- Comienza Header -->
+    <header id="Inicio">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 align-self-center text-center fondo-blanco py-5">
+            <h1 class="display-1">Tienda de ropa :D</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Termina Header -->
+
+    <main>
+      <div class="container"> 
+        
+        <div class="row border-bottom" id="Tienda"> <!-- Comienza sección de Tienda -->
+         
+          <div class="col-12 py-4 text-center">
+            <h2 class="mb-0 p-2 d-inline-block">TIENDA</h2>
+          </div>
+        <!-- carrusel-->
+        <div class="row" class="center">
+        	<div class="col-sm-11">
+        		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			  	<div class="carousel-indicators">
+			    	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			  	</div>
+			  <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="caballero.html"><img src="img/japohombre.jpg" class="d-block img-fluid w-30" alt="Moda Hombre Asiatico" ></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hombre</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="dama.html"><img src="img/japomujer.jpg" class="d-block w-30" alt="Moda Dama Asiatica"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dama</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="niñas.html"><img src="img/CA4.jpg" class="d-block w-30" alt="Moda Niños Asiatica"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Niños y Niñas</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="HOMBRE.html"><img src="img/europeahombre.jpg" class="d-block w-30" alt="Moda Hombre Europea"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hombre</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="DAMAE.html"><img src="img/europeamujer.jpg" class="d-block w-30" alt="Moda Mujer Europea"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mujer</h5>
+            </div>
+          </div>
+        </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden" class="col-sm-2">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+        	</div>
+        	  	
+
+        </div> 
+        <!-- fin carrusel-->
+         <div><br></div>
+
+          <div class="col-12 col-md-4 text-center mb-5 mb-md-4">
+            <img src="img/producto1.png" alt="Calcetas" class="img-fluid">
+            <h3 class="py-3 mb-0">Calcetines</h3>
+            <span class="d-block lead fw-bolder precio pb-3">$350<sup>MXN</sup></span>
+            <button class="btnRosa px-5 py-2" >Comprar</button>
+          </div>
+
+          <div class="col-12 col-md-4 text-center mb-5 mb-md-4">
+            <img src="img/producto2.png" alt="Crema" class="img-fluid">
+            <h3 class="py-3 mb-0">Crema</h3>
+            <span class="d-block lead fw-bolder precio pb-3">$350<sup>MXN</sup></span>
+            <button class="btnRosa px-5 py-2" >Comprar</button>
+          </div>
+
+          <div class="col-12 col-md-4 text-center mb-5 mb-md-4">
+            <img src="img/producto3.png" alt="Cera Depiladora" class="img-fluid">
+            <h3 class="py-3 mb-0">Cera Depiladora</h3>
+            <span class="d-block lead fw-bolder precio pb-3">$350<sup>MXN</sup></span>
+            <button class="btnRosa px-5 py-2" >Comprar</button>
+          </div>       
+        </div> <!-- Termina Sección de Tienda -->
+        
+        
+        <div class="row py-5" id="Rebajas"> <!--Comienza sección de Rebajas -->
+
+          <div class="col-12 pb-5 text-center">
+            <h2 class="mb-0 p-2 d-block" >Rebajas navideñas</h2>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img src="img/rebajas1.jpg" class="img-fluid" alt="rebajas 60 porciento">
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 mt-3 m-md-0">
+                <img src="img/rebajas2.jpg" alt="Rebajas carrito" class="img-fluid">
+              </div>
+              <div class="col-12 mt-3 mt-md-4 mt-lg-5">
+                <img src="img/rebajas3.jpg" alt="Mujer Compras" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+        </div> <!--Termina sección de Rebajas -->
+
+       
+
+      </div>
+    </main>
+
+    <footer class="bg-secondary">
+      <div class="container">
+        <div class="row p-3">
+          <div class="col-12 text-center">
+            <p class="mb-0 lead text-white">
+              Garage Shop Todos los derechos reservados <sub>R</sub>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="position-fixed btnWhats">
+      <a href="https://wa.me/527223382632" target="_blank"><img src="img/whatsapp.png" alt="Botón de Whatsapp" class="img-fluid"></a>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
